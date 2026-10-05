@@ -1,0 +1,32 @@
+{
+  "_note": "Fictional advertisers for the demo. Creatives are plain text, rendered with textContent, never sent to the LLM.",
+  "ads": [
+    {"id": "food_delivery_001", "advertiser": "Yemekçi", "category": "generic",
+     "headline": "İlk siparişe 200 TL indirim", "body": "Yeni üyelere özel, minimum sepet yok.",
+     "cta_label": "Detayları Gör", "cta_url": "https://example.com/yemekci", "ecpm_usd": 2.0},
+    {"id": "notes_app_001", "advertiser": "Notdefteri", "category": "generic",
+     "headline": "Notların her cihazında", "body": "Ücretsiz başla, istediğin zaman yükselt.",
+     "cta_label": "Keşfet", "cta_url": "https://example.com/notdefteri", "ecpm_usd": 1.5},
+    {"id": "ebook_001", "advertiser": "Sayfa", "category": "generic",
+     "headline": "Ayda 3 e-kitap ücretsiz", "body": "Binlerce Türkçe kitap tek uygulamada.",
+     "cta_label": "Dene", "cta_url": "https://example.com/sayfa", "ecpm_usd": 1.5},
+    {"id": "travel_flights_001", "advertiser": "Rotam", "category": "travel",
+     "headline": "Yurt dışı uçuşlarda erken rezervasyon", "body": "Esnek tarihli biletlerde %15'e varan indirim.",
+     "cta_label": "Uçuşlara Bak", "cta_url": "https://example.com/rotam", "ecpm_usd": 4.0},
+    {"id": "travel_hotels_001", "advertiser": "Konakla", "category": "travel",
+     "headline": "Ücretsiz iptalli oteller", "body": "Son dakikaya kadar planını değiştir.",
+     "cta_label": "Otelleri Gör", "cta_url": "https://example.com/konakla", "ecpm_usd": 4.0},
+    {"id": "shopping_tech_001", "advertiser": "Teknoçarşı", "category": "shopping",
+     "headline": "Laptoplarda 12 aya varan taksit", "body": "Aynı gün kargo seçeneğiyle.",
+     "cta_label": "İncele", "cta_url": "https://example.com/teknocarsi", "ecpm_usd": 3.5},
+    {"id": "education_courses_001", "advertiser": "Akademi+", "category": "education",
+     "headline": "Veri bilimine sıfırdan başla", "body": "Sertifikalı online kurslar, ilk hafta ücretsiz.",
+     "cta_label": "Kursları Gör", "cta_url": "https://example.com/akademi", "ecpm_usd": 4.5},
+    {"id": "education_language_001", "advertiser": "DilKulübü", "category": "education",
+     "headline": "İngilizce konuşma pratiği", "body": "Gerçek eğitmenlerle 25 dakikalık dersler.",
+     "cta_label": "Ücretsiz Ders", "cta_url": "https://example.com/dilkulubu", "ecpm_usd": 4.0},
+    {"id": "general_cloud_001", "advertiser": "BulutDepo", "category": "general",
+     "headline": "Belgelerin için 50 GB alan", "body": "Uçtan uca şifreli bulut depolama.",
+     "cta_label": "Başla", "cta_url": "https://example.com/bulutdepo", "ecpm_usd": 3.0}
+  ]
+}

@@ -1,0 +1,6 @@
+pypdf>=6
+pytest>=8
+# Optional, only for the Sieve adapter (mode 2):
+# numpy>=1.24
+# scikit-learn==1.9.1
+# joblib

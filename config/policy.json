@@ -1,0 +1,84 @@
+{
+  "security": {
+    "max_chars": 200000,
+    "llm_max_chars": 20000,
+    "review_policy": "ask_user",
+    "review_policy_options": [
+      "ask_user",
+      "proceed",
+      "block"
+    ],
+    "security_timeout_s": 30,
+    "category_sensitivity": {
+      "financial": "medium",
+      "medical": "medium",
+      "legal": "medium",
+      "hr": "high",
+      "personal": "medium",
+      "confidential_business": "high",
+      "general": "low",
+      "travel": "low",
+      "shopping": "low",
+      "education": "low"
+    },
+    "pii_high_types": [
+      "tckn",
+      "iban",
+      "card"
+    ],
+    "pii_high_count": 3
+  },
+  "ads": {
+    "enabled": true,
+    "strategy": "adaptive",
+    "surface": "status_line",
+    "surface_options": [
+      "status_line",
+      "card"
+    ],
+    "decision_timeout_ms": 150,
+    "frequency": {
+      "max_ads_per_session": 2,
+      "min_interval_s": 300
+    },
+    "immediate": {
+      "format": "compact"
+    },
+    "delayed": {
+      "show_after_s": 3.0,
+      "format": "compact"
+    },
+    "adaptive": {
+      "no_ad_below_s": 4.0,
+      "card_from_s": 8.0
+    },
+    "min_viewable_s": 1.0,
+    "swap": {
+      "min_current_visible_s": 2.0,
+      "min_remaining_s": 3.0
+    },
+    "rotation": {
+      "enabled": true,
+      "every_s": 20.0,
+      "max_creatives_per_request": 4
+    },
+    "category_modes": {
+      "financial": "generic_only",
+      "medical": "generic_only",
+      "legal": "generic_only",
+      "hr": "none",
+      "personal": "generic_only",
+      "confidential_business": "none",
+      "general": "contextual",
+      "travel": "contextual",
+      "shopping": "contextual",
+      "education": "contextual"
+    },
+    "sensitivity_caps": {
+      "low": "contextual",
+      "medium": "generic_only",
+      "high": "none"
+    },
+    "pre_decision_mode": "generic_only"
+  }
+}

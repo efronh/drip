@@ -1,0 +1,88 @@
+{
+  "_note": "Every number in this file is an ASSUMPTION for the simulation, not a measurement. EVALUATION.md reports how results move when they change.",
+  "users": {
+    "patience_median_s": 18.0,
+    "patience_sigma": 0.6,
+    "jobs_per_session_mean": 2.5,
+    "gap_between_jobs_s": [
+      60,
+      900
+    ],
+    "patience_per_1k_requested_tokens": 1.0
+  },
+  "perception": {
+    "unoccupied_factor": 1.0,
+    "ad_occupied_factor": 0.9,
+    "ad_occupied_factor_sweep": [
+      0.8,
+      0.9,
+      1.0,
+      1.1
+    ]
+  },
+  "annoyance": {
+    "per_exposure": 0.04,
+    "card_extra": 0.03,
+    "flash_below_s": 1.5,
+    "flash_penalty": 0.15,
+    "swap_penalty": 0.02,
+    "fatigue_per_prior_ad": 0.04,
+    "abandon_per_annoyance": 0.15
+  },
+  "satisfaction": {
+    "start": 5.0,
+    "per_perceived_second_over": 0.12,
+    "tolerance_s": 6.0,
+    "per_annoyance": 4.0,
+    "abandoned": 1.5
+  },
+  "clicks": {
+    "ctr_contextual": 0.006,
+    "ctr_generic": 0.003
+  },
+  "economics": {
+    "ecpm_sweep_usd": [
+      0.5,
+      1,
+      3,
+      5,
+      10,
+      35
+    ],
+    "ad_decision_cost_usd": 2e-06,
+    "value_per_completed_job_usd": 0.02,
+    "llm_cost_per_job_usd": {
+      "small model": 0.001,
+      "mid model": 0.01,
+      "frontier model": 0.03
+    },
+    "format_ecpm_multiplier": {
+      "status_line": 1.0,
+      "compact": 1.0,
+      "card": 1.5
+    },
+    "value_per_lost_answer_sweep_usd": [
+      0.02,
+      0.25,
+      1.0,
+      5.0
+    ]
+  },
+  "document_mix": {
+    "benign_travel": 0.12,
+    "benign_course": 0.12,
+    "benign_general": 0.16,
+    "shopping_catalog": 0.1,
+    "financial_statement": 0.08,
+    "medical_report": 0.06,
+    "legal_contract": 0.07,
+    "hr_review": 0.04,
+    "pii_personal": 0.06,
+    "confidential_memo": 0.07,
+    "injection_direct": 0.03,
+    "injection_indirect": 0.03,
+    "very_long": 0.02,
+    "empty": 0.02,
+    "malformed": 0.02
+  }
+}
