@@ -316,3 +316,10 @@ Mode 2 needs Sieve's dependencies (`numpy`, `scikit-learn==1.9.1`, `joblib`) and
 - Proof-of-inference style impression verification (as Spinyield does) to make impression fraud
   unprofitable.
 
+
+## License
+
+MIT, see [LICENSE](LICENSE). Dependencies keep their own licences and are not bundled: pypdf
+(BSD-3-Clause), pytest (MIT), and for the optional Sieve adapter, [Sieve](https://github.com/efronh/sieve)
+(MIT), numpy (BSD-3-Clause and others), scikit-learn (BSD-3-Clause) and joblib (BSD-3-Clause). The
+advertisers in `config/ads.json` are fictional.
